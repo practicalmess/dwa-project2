@@ -5,7 +5,7 @@ $wordList = explode("<li>", $firstPage);
 foreach($wordList as $key => $value){
 	$wordList[$key]=substr($wordList[$key], 0, strpos($wordList[$key], "<"));
 }
-
+//Iterate through each page of word list
 for($i=3; $i<=5; $i+=2){
 	if($i<=8){
 		$from='0'.$i;
@@ -20,6 +20,7 @@ for($i=3; $i<=5; $i+=2){
 	foreach($newWords as $key => $value){
 	$newWords[$key]=substr($newWords[$key], 0, strpos($newWords[$key], "<"));
 }
+	//Add new array of words to the array of existing words
 	$wordList = array_merge($wordList, $newWords);
 }
 

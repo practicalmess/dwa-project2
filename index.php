@@ -36,10 +36,11 @@
 	<p id="display-password">Your new password is: 
 		<strong><?php
 			echo $password;
+			//Add number to password if checked
 			if($_GET["number"]=="on"){
 				echo rand(0, 9);
 			}
-
+			//Add special character to password if checked
 			if($_GET["special"]=="on"){
 			echo $specials[array_rand($specials)];
 			}
@@ -47,7 +48,7 @@
 	</p>
 	</div>
 
-
+	
 	<a href="http://xkcd.com/936/"><img src="xkcd_password_strength.png" alt="A comic depicting the silliness of common password creation methods."></a>
 
 

@@ -1,0 +1,44 @@
+body {
+	font-family: Veranda, sans-serif;
+	font-size: 1em;
+	margin: 0 5%;
+}
+
+h1 {
+	text-align: center;
+}
+
+form {
+	display: table;
+	border: 1px solid black;
+	padding: 1em;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.row {
+	display: table-row;
+}
+
+label {
+	display: table-cell;
+}
+
+input {
+	margin-left: 5px;
+}
+
+#generator {
+	width: 40%;
+	margin: 0 auto;
+}
+
+#display-password {
+	text-align: center;
+}
+
+img {
+	width: 60%;
+	margin: 0 auto;
+	display: block;
+}

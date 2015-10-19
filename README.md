@@ -1,6 +1,6 @@
 #P2 README
 
-Live URL: [p2.sjhackney.me](p2.sjhackney.me)
+Live URL: [p2.sjhackney.me](http://p2.sjhackney.me)
 
 Demo: [http://screencast.com/t/bSZf25pmmY7O](http://screencast.com/t/bSZf25pmmY7O)
 
